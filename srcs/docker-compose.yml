@@ -1,2 +1,23 @@
 version: '3.8'
 
+services:
+  mariadb:
+    build: ./requirements/mariadb
+    image: mariadb
+    container_name: mariadb
+    environment:
+      SQL_ROOT_PASS: root
+      SQL_DB: wordpress
+      SQL_USR: wordpress
+      SQL_PASS: wordpress
+    volumes:
+      - .mariadb:/var/lib/mysql
+
+  # nginx:
+  #   build: ./requirements/nginx
+  #   image: nginx
+  #   container_name: nginx
+  #   ports:
+  #     - "443:443"
+  #   volumes:
+  #     - .nginx:/var/www/html
