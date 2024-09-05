@@ -10,19 +10,17 @@ mysqladmin ping -hlocalhost --silent
 # Create database
 mysql -e "CREATE DATABASE IF NOT EXISTS \`${SQL_DB}\`;"
 
-# Create user
-mysql -e "CREATE USER IF NOT EXISTS \`${SQL_USR}\`@'localhost' IDENTIFIED BY '${SQL_PASS}';"
-
-# Grant privileges
+# Create user and grant privileges
+mysql -e "CREATE USER IF NOT EXISTS \`${SQL_USR}\`@'%' IDENTIFIED BY '${SQL_PASS}';"
 mysql -e "GRANT ALL PRIVILEGES ON \`${SQL_DB}\`.* TO \`${SQL_USR}\`@'%' IDENTIFIED BY '${SQL_PASS}';"
-
-# Modify root user
-mysql -e "ALTER USER 'root'@'localhost' IDENTIFIED BY '${SQL_ROOT_PASS}';"
 
 # Flush privileges
 mysql -e "FLUSH PRIVILEGES;"
 
-# Restart MariaDB to apply changes
+# Modify root user password
+mysql -e "ALTER USER 'root'@'localhost' IDENTIFIED BY '${SQL_ROOT_PASS}';"
+
+# Shutdown MariaDB to apply changes
 mysqladmin -u root -p${SQL_ROOT_PASS} shutdown
 sleep 10
 
