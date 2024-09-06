@@ -38,14 +38,14 @@ list-containers:
 	$(D_COMPOSE) -f $(DOCKER_YML) ps -a
 
 remove-image:
-	$(D_COMPOSE) down --rmi all
+	$(D_COMPOSE) -f $(DOCKER_YML) down --rmi all
 
 log: 
 	$(D_COMPOSE) -f $(DOCKER_YML) logs
 
 fclean: 
 		@make remove-image
-		@sudo rm -rf $(HOME)/data
+		# @sudo rm -rf $(HOME)/data
 
 .PHONY: all host install build \
 		run stop re list-images \

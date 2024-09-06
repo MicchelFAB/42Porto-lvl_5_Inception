@@ -1,0 +1,7 @@
+make: Entering directory '/home/mamaral-/Inception'
+docker-compose -f srcs/docker-compose.yml logs
+mariadb  | Starting MariaDB database server: mariadbd.
+mariadb  | mysqld is alive
+mariadb  | 240906 09:39:51 mysqld_safe Logging to syslog.
+mariadb  | 240906 09:39:51 mysqld_safe Starting mariadbd daemon with databases from /var/lib/mysql
+make: Leaving directory '/home/mamaral-/Inception'

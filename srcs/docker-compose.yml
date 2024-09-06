@@ -1,4 +1,4 @@
-# version: '3.8'
+version: '3.8'
 
 services:
   nginx:
@@ -59,13 +59,11 @@ services:
 volumes:
   wordpress:
     driver_opts:
-      device: /${HOME}/data/wordpress
+      device: /home/mamaral-/data/wordpress
       type: none
-      o: bind
   mariadb:
     driver_opts:
-      device: /${HOME}/data/mariadb
+      device: /home/mamaral-/data/mariadb
       type: none
-      o: bind
 networks:
   inception_network:
