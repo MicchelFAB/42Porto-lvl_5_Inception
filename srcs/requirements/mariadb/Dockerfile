@@ -21,5 +21,7 @@ ENV MYSQL_USER=${SQL_USR}
 ENV MYSQL_PASSWORD=${SQL_PASS}
 ENV MYSQL_ROOT_PASSWORD=${SQL_ROOT_PASS}
 
+EXPOSE 3306
+
 # Initialize the database
 CMD ["/tools/init_db.sh"]

@@ -1,5 +1,11 @@
 #!/bin/sh
 
+# Wait for MariaDB to be ready
+until mysqladmin ping -h "${SQL_HOST}" --silent; do
+    echo "Waiting for MariaDB to be ready..."
+    sleep 2
+done
+
 # Check if WordPress is already installed
 if [ ! -f /var/www/html/wp-config.php ]; then
     # Download WordPress
@@ -22,6 +28,10 @@ if [ ! -f /var/www/html/wp-config.php ]; then
     wget https://raw.githubusercontent.com/wp-cli/builds/gh-pages/phar/wp-cli.phar
     chmod +x wp-cli.phar
     mv wp-cli.phar /usr/local/bin/wp
+
+    chown -R www-data:www-data /var/www/html
+    find /var/www/html -type d -exec chmod 755 {} \;
+    find /var/www/html -type f -exec chmod 644 {} \;
 
     # Install WordPress
     wp core install \
