@@ -26,6 +26,10 @@ run:
 stop:
 	$(D_COMPOSE) -f $(DOCKER_YML) down
 
+restart:
+	@make stop
+	make run
+
 re: 
 	@make stop 
 	@make fclean 
@@ -50,4 +54,4 @@ fclean:
 .PHONY: all host install build \
 		run stop re list-images \
 		list-containers remove-image \
-		fclean
+		fclean log
