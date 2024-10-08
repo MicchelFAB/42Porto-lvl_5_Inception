@@ -1,0 +1,1259 @@
+/*---------------*/
+/***** Sadie *****/
+/*---------------*/
+
+figure.effect-portfolio1 figcaption::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.8) 75%);
+    background: linear-gradient(to bottom, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0.4) 75%);
+    content: '';
+    opacity: 0;
+    -webkit-transform: translate3d(0,50%,0);
+    transform: translate3d(0,50%,0);
+}
+
+figure.effect-portfolio1 h2 {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+    color: #ffffff;
+    -webkit-transition: -webkit-transform 0.35s, color 0.35s;
+    transition: transform 0.35s, color 0.35s;
+    -webkit-transform: translate3d(0,-50%,0);
+    transform: translate3d(0,-50%,0);
+}
+
+figure.effect-portfolio1 figcaption::before,
+figure.effect-portfolio1 p {
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-portfolio1 p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 0px 20px;
+    width: 100%;
+    opacity: 0;
+    -webkit-transform: translate3d(0,10px,0);
+    transform: translate3d(0,10px,0);
+    font-size: 13px;
+    color: #fff;
+    top: 42%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+figure.effect-portfolio1:hover h2,
+figure.effect-portfolio1:focus-within h2 {
+    color: #fff;
+    -webkit-transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
+    transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
+}
+
+figure.effect-portfolio1:hover figcaption::before,
+figure.effect-portfolio1:focus-within figcaption::before,
+figure.effect-portfolio1:hover p,
+figure.effect-portfolio1:focus-within p {
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+/*---------------*/
+/***** Oscar *****/
+/*---------------*/
+
+figure.effect-portfolio2 {
+    background: -webkit-linear-gradient(45deg, #000000 0%, #333333 40%, #111111 100%);
+    background: linear-gradient(45deg, #000000 0%,#333333 40%,#111111 100%);
+}
+
+figure.effect-portfolio2 img {
+    opacity: 0.9;
+    -webkit-transition: opacity 0.65s;
+    transition: opacity 0.65s;
+}
+
+figure.effect-portfolio2 figcaption {
+    -webkit-transition: background-color 0.35s;
+    transition: background-color 0.35s;
+    padding: 5px 20px;
+}
+
+figure.effect-portfolio2 figcaption::before {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    bottom: 30px;
+    left: 30px;
+    border: 1px solid #fff;
+    content: '';
+}
+
+figure.effect-portfolio2 h2 {
+    margin-top: 10%;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0,100%,0);
+    transform: translate3d(0,100%,0);
+}
+
+figure.effect-portfolio2 figcaption::before,
+figure.effect-portfolio2 p {
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    color: #ffffff;
+	padding: 0 26px;
+}
+
+figure.effect-portfolio2:hover h2,
+figure.effect-portfolio2:focus-within h2 {
+    -webkit-transform: translate3d(0,-6px,0);
+    transform: translate3d(0,-6px,0);
+}
+
+figure.effect-portfolio2:hover figcaption::before,
+figure.effect-portfolio2:focus-within figcaption::before,
+figure.effect-portfolio2:hover p,
+figure.effect-portfolio2:focus-within p {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+figure.effect-portfolio2:hover figcaption,
+figure.effect-portfolio2:focus-within figcaption {
+    background-color: rgb(0 0 0 / 30%);
+}
+
+figure.effect-portfolio2:hover img,
+figure.effect-portfolio2:focus-within img {
+    opacity: 0.4;
+}
+
+/*---------------*/
+/***** Marley *****/
+/*---------------*/
+
+figure.effect-portfolio3 figcaption {
+    text-align: center;
+}
+
+figure.effect-portfolio3:hover figcaption,
+figure.effect-portfolio3:focus-within figcaption {
+    background-color: rgb(0 0 0 / 30%);
+}
+
+figure.effect-portfolio3 h2,
+figure.effect-portfolio3 p {
+    position: absolute;
+    right: 30px;
+    left: 30px;
+    padding: 10px 0;
+}
+figure.effect-portfolio3 p {
+    top:40%;
+    line-height: 1.5;
+    -webkit-transform: translate3d(0,100%,0);
+    transform: translate3d(0,100%,0);
+}
+figure.effect-portfolio3 h2 {
+    top: 30px;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0,100%,0);
+    transform: translate3d(0,100%,0);
+}
+figure.effect-portfolio3:hover h2,
+figure.effect-portfolio3:focus-within h2 {
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+figure.effect-portfolio3 h2::after {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: #fff;
+    content: '';
+    -webkit-transform: translate3d(0,40px,0);
+    transform: translate3d(0,40px,0);
+}
+
+figure.effect-portfolio3 h2::after,
+figure.effect-portfolio3 p {
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    font-size: 13px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+}
+
+figure.effect-portfolio3:hover h2::after,
+figure.effect-portfolio3:focus-within h2::after,
+figure.effect-portfolio3:hover p,
+figure.effect-portfolio3:focus-within p {
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+/*---------------*/
+/***** Bubba *****/
+/*---------------*/
+
+figure.effect-portfolio4 {
+    background: #000000;
+}
+
+figure.effect-portfolio4 img {
+    opacity: 0.7;
+    -webkit-transition: opacity 0.35s;
+    transition: opacity 0.35s;
+}
+
+figure.effect-portfolio4:hover img,
+figure.effect-portfolio4:focus-within img {
+    opacity: 0.4;
+}
+
+figure.effect-portfolio4 figcaption::before,
+figure.effect-portfolio4 figcaption::after {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    bottom: 30px;
+    left: 30px;
+    content: '';
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-portfolio4 figcaption::before {
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-transform: scale(0,1);
+    transform: scale(0,1);
+}
+
+figure.effect-portfolio4 figcaption::after {
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+    -webkit-transform: scale(1,0);
+    transform: scale(1,0);
+}
+
+figure.effect-portfolio4 h2 {
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0,100%,0);
+    transform: translate3d(0,100%,0);
+}
+
+figure.effect-portfolio4 p {
+    padding: 0 42px;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(0,20px,0);
+    transform: translate3d(0,20px,0);
+    color: #ffffff;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+}
+figure.effect-portfolio4:hover figcaption::before,
+figure.effect-portfolio4:focus-within figcaption::before,
+figure.effect-portfolio4:hover figcaption::after,
+figure.effect-portfolio4:focus-within figcaption::after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+figure.effect-portfolio4:hover h2,
+figure.effect-portfolio4:focus-within h2,
+figure.effect-portfolio4:hover p,
+figure.effect-portfolio4:focus-within p {
+    opacity: 1;
+}
+
+figure.effect-portfolio4:hover p,
+figure.effect-portfolio4:focus-within p {
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+figure.effect-portfolio4:hover h2,
+figure.effect-portfolio4:focus-within h2 {
+    -webkit-transform: translate3d(0,-6px,0);
+    transform: translate3d(0,-6px,0);
+}
+
+
+/*---------------*/
+/***** Romeo *****/
+/*---------------*/
+
+figure.effect-portfolio5 {
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+}
+
+figure.effect-portfolio5 img {
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(0,0,300px);
+    transform: translate3d(0,0,300px);
+}
+
+figure.effect-portfolio5:hover img,
+figure.effect-portfolio5:focus-within img {
+    opacity: 0.6;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+figure.effect-portfolio5 figcaption::before,
+figure.effect-portfolio5 figcaption::after {
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    width: 80%;
+    height: 1px;
+    background: #fff;
+    content: '';
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(-50%,-50%,0);
+    transform: translate3d(-50%,-50%,0);
+}
+
+figure.effect-portfolio5:hover figcaption::before,
+figure.effect-portfolio5:focus-within figcaption::before {
+    opacity: 0.5;
+    top: 50%;
+    -webkit-transform: translate3d(-50%,-50%,0) rotate(45deg);
+    transform: translate3d(-50%,-50%,0) rotate(45deg);
+}
+
+figure.effect-portfolio5:hover figcaption::after,
+figure.effect-portfolio5:focus-within figcaption::after {
+    opacity: 0.5;
+    top: 50%;
+    -webkit-transform: translate3d(-50%,-50%,0) rotate(-45deg);
+    transform: translate3d(-50%,-50%,0) rotate(-45deg);
+}
+
+figure.effect-portfolio5 h2
+{
+    position: absolute;
+    top: 22%;
+    left: 0;
+    width: 100%;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+}
+figure.effect-portfolio5 p {
+    position: absolute;
+    top: 36%;
+    left: 0;
+    width: 100%;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+}
+
+figure.effect-portfolio5 h2 {
+    -webkit-transform: translate3d(0,80%,0) translate3d(0,-120%,0);
+    transform: translate3d(0,80%,0) translate3d(0,-120%,0);
+}
+
+figure.effect-portfolio5 p {
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0 20px;
+    -webkit-transform: translate3d(0,10%,0) translate3d(0,20%,0);
+    transform: translate3d(0,10%,0) translate3d(0,20%,0);
+}
+
+figure.effect-portfolio5:hover h2,
+figure.effect-portfolio5:focus-within h2 {
+    -webkit-transform: translate3d(0,110%,0) translate3d(0,-100%,0);
+    transform: translate3d(0,110%,0) translate3d(0,-100%,0);
+}
+
+figure.effect-portfolio5:hover p,
+figure.effect-portfolio5:focus-within p {
+    -webkit-transform: translate3d(0,-70%,0) translate3d(0,100%,0);
+    transform: translate3d(0,-70%,0) translate3d(0,100%,0);
+}
+
+/*---------------*/
+/***** Dexter *****/
+/*---------------*/
+
+figure.effect-portfolio6 {
+    background: -webkit-linear-gradient(top, rgba(37,141,200,1) 0%, rgba(104,60,19,1) 100%);
+    background: linear-gradient(to bottom, rgba(37,141,200,1) 0%,rgba(104,60,19,1) 100%); 
+}
+
+figure.effect-portfolio6 img {
+    -webkit-transition: opacity 0.35s;
+    transition: opacity 0.35s;
+}
+
+figure.effect-portfolio6:hover img,
+figure.effect-portfolio6:focus-within img {
+    opacity: 0.4;
+}
+
+figure.effect-portfolio6 figcaption div {
+    height: 100% !important;
+}
+
+figure.effect-portfolio6 figcaption {
+    padding: 3em;
+    text-align: left;
+}
+
+figure.effect-portfolio6 p {
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+    position: absolute;
+    right: 45px;
+    bottom: 42px;
+    left: 45px;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(0,-100px,0);
+    transform: translate3d(0,-100px,0);
+}
+
+figure.effect-portfolio6:hover p,
+figure.effect-portfolio6:focus-within p {
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+figure.effect-portfolio6 figcaption p::after {
+    position: absolute;
+    right: 0;
+    bottom: -12px;
+    left: -12px;
+    width: 108%;
+    height: 120%;
+    border: 7px solid #fff;
+    content: '';
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0,-50%,0);
+    transform: translate3d(0,-50%,0);
+}
+
+figure.effect-portfolio6:hover figcaption p::after,
+figure.effect-portfolio6:focus-within figcaption p::after {
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    figure.effect-portfolio6 p {
+        bottom: 25px;
+    }
+    figure.effect-portfolio6 figcaption p::after {
+        bottom: -6px;
+        height: 110%;
+    }
+}
+
+@media only screen and (min-width: 469px) and (max-width: 767px) {
+    figure.effect-portfolio6 figcaption p::after {
+        height: 150%;
+    }
+}
+
+/*---------------*/
+/***** Chico *****/
+/*---------------*/
+
+figure.effect-portfolio7 img {
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale(1.12);
+    transform: scale(1.12);
+}
+
+figure.effect-portfolio7:hover img,
+figure.effect-portfolio7:focus-within img {
+    opacity: 0.5;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+figure.effect-portfolio7 figcaption {
+    padding: 3rem 4.5rem;
+}
+
+figure.effect-portfolio7 figcaption::before {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    bottom: 30px;
+    left: 30px;
+    border: 1px solid #fff;
+    content: '';
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+figure.effect-portfolio7 h2 {
+    transform: translateY(100%);
+}
+
+figure.effect-portfolio7:hover h2,
+figure.effect-portfolio7:focus-within h2 {
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+}
+
+figure.effect-portfolio7 figcaption::before,
+figure.effect-portfolio7 p {
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-portfolio7 p {
+    margin: 0 auto;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    color: #ffffff;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+figure.effect-portfolio7:hover figcaption::before,
+figure.effect-portfolio7:focus-within figcaption::before,
+figure.effect-portfolio7:hover p,
+figure.effect-portfolio7:focus-within p {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+@media screen and (max-width: 50em) {
+    .content {
+        padding: 0 10px;
+        text-align: center;
+    }
+    .grid figure {
+        display: inline-block;
+        float: none;
+        margin: 10px auto;
+        width: 100%;
+    }
+}
+/*-----------------*/
+/***** Apollo *****/
+/*-----------------*/
+
+figure.effect-portfolio8 {
+    background: #000000;
+}
+
+figure.effect-portfolio8 img {
+    opacity: 0.6;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale3d(1.05,1.05,1);
+    transform: scale3d(1.05,1.05,1);
+}
+
+figure.effect-portfolio8 figcaption::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0.1);
+    content: '';
+    -webkit-transition: -webkit-transform 0.6s;
+    transition: transform 0.6s;
+    -webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0);
+    transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,-100%,0);
+}
+
+figure.effect-portfolio8 h2 {
+    transform: translateY(100%);
+}
+
+figure.effect-portfolio8:hover h2,
+figure.effect-portfolio8:focus-within h2 {
+    -webkit-transform: translateY(0%);
+    transform: translateY(0%);
+}
+
+figure.effect-portfolio8 p {
+    color: #ffffff;
+    font-size: 13px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    padding: 0.5em 2em;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s;
+    transition: opacity 0.35s;
+}
+
+figure.effect-portfolio8 h2 {
+   margin-top: 40px;
+}
+
+figure.effect-portfolio8:hover img,
+figure.effect-portfolio8:focus-within img {
+    opacity: 0.6;
+    -webkit-transform: scale3d(1,1,1);
+    transform: scale3d(1,1,1);
+}
+
+figure.effect-portfolio8:hover figcaption::before,
+figure.effect-portfolio8:focus-within figcaption::before {
+    -webkit-transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0);
+    transform: scale3d(1.9,1.4,1) rotate3d(0,0,1,45deg) translate3d(0,100%,0);
+}
+
+figure.effect-portfolio8:hover p,
+figure.effect-portfolio8:focus-within p {
+    opacity: 1;
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+}
+/*---------------*/
+/***** Jazz *****/
+/*---------------*/
+
+figure.effect-portfolio9 {
+   /* background: -webkit-linear-gradient(-45deg, #f3cf3f 0%,#f33f58 100%);
+    background: linear-gradient(-45deg, #f3cf3f 0%,#f33f58 100%);*/
+}
+
+figure.effect-portfolio9 img {
+    opacity: 0.9;
+}
+
+figure.effect-portfolio9 figcaption::after,
+figure.effect-portfolio9 img,
+figure.effect-portfolio9 p {
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-portfolio9 figcaption::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 120%;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    content: '';
+    opacity: 0;
+    -webkit-transform: rotate3d(0,0,1,45deg) scale3d(1,0,1);
+    transform: rotate3d(0,0,1,45deg) scale3d(1,0,1);
+    -webkit-transform-origin: 50% 65%;
+    transform-origin: 50% 65%;
+}
+
+figure.effect-portfolio9 h2 {
+    transform: translateY(100%);
+}
+
+figure.effect-portfolio9 h2 {
+    padding-top: 0;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+}
+
+figure.effect-portfolio9 p {
+    padding: 0.5em 2em;
+    text-transform: none;
+    opacity: 0;
+    color: #ffffff;
+    font-size: 15px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+figure.effect-portfolio9:hover img,
+figure.effect-portfolio9:focus-within img {
+    opacity: 0.7;
+    -webkit-transform: scale3d(1.05,1.05,1);
+    transform: scale3d(1.05,1.05,1);
+}
+
+figure.effect-portfolio9:hover figcaption::after,
+figure.effect-portfolio9:focus-within figcaption::after {
+    opacity: 1;
+    -webkit-transform: rotate3d(0,0,1,45deg) scale3d(1,1,1);
+    transform: rotate3d(0,0,1,45deg) scale3d(1,1,1);
+}
+
+figure.effect-portfolio9:hover h2,
+figure.effect-portfolio9:focus-within h2,
+figure.effect-portfolio9:hover p,
+figure.effect-portfolio9:focus-within p {
+    opacity: 1;
+    -webkit-transform: scale3d(1,1,1);
+    transform: scale3d(1,1,1);
+}
+
+/*---------------*/
+/***** Lily *****/
+/*---------------*/
+
+.grid figure.effect-portfolio10 img {
+    max-width: none;
+    opacity: 0.7;
+    width: calc(100% + 50px);
+    min-height: 240px;
+    max-height: 240px;
+    object-fit: cover;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(-40px,0, 0);
+    transform: translate3d(-40px,0,0);
+}
+
+figure.effect-portfolio10:hover img,
+figure.effect-portfolio10:focus-within img,
+figure.effect-portfolio10:hover p,
+figure.effect-portfolio10:focus-within p {
+    opacity: 1;
+}
+
+figure.effect-portfolio10 figcaption {
+    text-align: left;
+}
+
+figure.effect-portfolio10 figcaption > div {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 2em;
+}
+
+figure.effect-portfolio10 h2, figure.effect-portfolio10 p {
+    -webkit-transform: translate3d(0,40px,0);
+    transform: translate3d(0,40px,0);
+}
+
+figure.effect-portfolio10:hover img,
+figure.effect-portfolio10:focus-within img,
+figure.effect-portfolio10:hover h2,
+figure.effect-portfolio10:focus-within h2,
+figure.effect-portfolio10:hover p,
+figure.effect-portfolio10:focus-within p {
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+figure.effect-portfolio10 p {
+    color: #ffffff;
+    opacity: 0;
+    -webkit-transition: opacity 0.2s, -webkit-transform 0.35s;
+    transition: opacity 0.2s, transform 0.35s;
+}
+
+
+/*---------------*/
+/***** Layla *****/
+/*---------------*/
+
+figure.effect-portfolio11 img,
+figure.effect-portfolio11 figcaption::before,
+figure.effect-portfolio11 figcaption::after,
+figure.effect-portfolio11 p {
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-portfolio11:hover img,
+figure.effect-portfolio11:focus-within img {
+    opacity: 0.7;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+figure.effect-portfolio11:hover figcaption::after,
+figure.effect-portfolio11:focus-within figcaption::after,
+figure.effect-portfolio11:hover h2,
+figure.effect-portfolio11:focus-within h2,
+figure.effect-portfolio11:hover p,
+figure.effect-portfolio11:focus-within p,
+figure.effect-portfolio11:hover img,
+figure.effect-portfolio11:focus-within img {
+    -webkit-transition-delay: 0.15s;
+    transition-delay: 0.15s;
+}
+
+figure.effect-portfolio11 figcaption {
+    padding: 2.3em 2.8em;
+}
+
+figure.effect-portfolio11 figcaption::before,
+figure.effect-portfolio11 figcaption::after {
+    position: absolute;
+    content: '';
+    opacity: 0;
+}
+
+figure.effect-portfolio11 figcaption::before {
+    top: 38px;
+    right: 38px;
+    bottom: 38px;
+    left: 38px;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    -webkit-transform: scale(0,1);
+    transform: scale(0,1);
+    -webkit-transform-origin: 0 0;
+    transform-origin: 0 0;
+}
+
+figure.effect-portfolio11 figcaption::after {
+    top: 30px;
+    right: 50px;
+    bottom: 30px;
+    left: 50px;
+    border-right: 1px solid #fff;
+    border-left: 1px solid #fff;
+    -webkit-transform: scale(1,0);
+    transform: scale(1,0);
+    -webkit-transform-origin: 100% 0;
+    transform-origin: 100% 0;
+}
+
+figure.effect-portfolio11 img,
+figure.effect-portfolio11 figcaption::before,
+figure.effect-portfolio11 figcaption::after,
+figure.effect-portfolio11 p {
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-portfolio11:hover figcaption::before,
+figure.effect-portfolio11:focus-within figcaption::before,
+figure.effect-portfolio11:hover figcaption::after,
+figure.effect-portfolio11:focus-within figcaption::after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+figure.effect-portfolio11 h2 {
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0,100%,0);
+    transform: translate3d(0,100%,0);
+}
+
+figure.effect-portfolio11:hover h2,
+figure.effect-portfolio11:focus-within h2,
+figure.effect-portfolio11:hover p,
+figure.effect-portfolio11:focus-within p {
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+figure.effect-portfolio11 p {
+    padding: 0.5em 2em;
+    text-transform: none;
+    opacity: 0;
+    -webkit-transform: translate3d(0,-10px,0);
+    transform: translate3d(0,-10px,0);
+    color: #ffffff;
+}
+
+
+/*---------------*/
+/***** Ming *****/
+/*---------------*/
+
+figure.effect-portfolio12 {
+    background: #030c17;
+}
+
+figure.effect-portfolio12 img {
+    opacity: 0.9;
+    -webkit-transition: opacity 0.35s;
+    transition: opacity 0.35s;
+}
+
+figure.effect-portfolio12 figcaption::before {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    bottom: 30px;
+    left: 30px;
+    border: 2px solid #fff;
+    box-shadow: 0 0 0 30px rgba(255,255,255,0.2);
+    content: '';
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale3d(1.4,1.4,1);
+    transform: scale3d(1.4,1.4,1);
+}
+
+figure.effect-portfolio12 h2 {
+    margin: 20% 0 10px 0;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transition: all .35s cubic-bezier(.645,.045,.355,1);
+    transition: all .35s cubic-bezier(.645,.045,.355,1);
+}
+
+figure.effect-portfolio12 p {
+    color: #ffffff;
+    padding: 1em 3.5em;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+figure.effect-portfolio12:hover h2,
+figure.effect-portfolio12:focus-within h2 {
+    margin-top: 5%;
+    -webkit-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+figure.effect-portfolio12:hover figcaption::before,
+figure.effect-portfolio12:focus-within figcaption::before,
+figure.effect-portfolio12:hover p,
+figure.effect-portfolio12:focus-within p {
+    opacity: 1;
+    -webkit-transform: scale3d(1,1,1);
+    transform: scale3d(1,1,1);
+    padding-top: 0;
+}
+
+figure.effect-portfolio12:hover figcaption,
+figure.effect-portfolio12:focus-within figcaption {
+    background-color: rgba(58,52,42,0);
+}
+
+figure.effect-portfolio12:hover img,
+figure.effect-portfolio12:focus-within img {
+    opacity: 0.4;
+}
+
+
+/*---------------*/
+/***** Julia *****/
+/*---------------*/
+
+figure.effect-portfolio13 {
+    background: #2f3238;
+}
+
+figure.effect-portfolio13 img {
+    -webkit-transition: opacity 1s, -webkit-transform 1s;
+    transition: opacity 1s, transform 1s;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+figure.effect-portfolio13 figcaption {
+    text-align: left;
+    padding: 25px;
+}
+
+figure.effect-portfolio13 h2 {
+    position: relative;
+    padding: 0.5em 0;
+}
+
+figure.effect-portfolio13 p {
+    display: inline-block;
+    margin: 0 0 0.25em;
+    padding: 0.4em 1em;
+    background: rgba(255,255,255,0.9);
+    color: #2f3238;
+    text-transform: none;
+    font-weight: 500;
+    font-size: 75%;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(-360px,0,0);
+    transform: translate3d(-360px,0,0);
+}
+
+figure.effect-portfolio13 p:first-child {
+    -webkit-transition-delay: 0.15s;
+    transition-delay: 0.15s;
+}
+
+figure.effect-portfolio13 p:nth-of-type(2) {
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+}
+
+figure.effect-portfolio13 p:nth-of-type(3) {
+    -webkit-transition-delay: 0.05s;
+    transition-delay: 0.05s;
+}
+
+figure.effect-portfolio13:hover p:first-child {
+    -webkit-transition-delay: 0s;
+    transition-delay: 0s;
+}
+
+figure.effect-portfolio13:hover p:nth-of-type(2) {
+    -webkit-transition-delay: 0.05s;
+    transition-delay: 0.05s;
+}
+
+figure.effect-portfolio13:hover p:nth-of-type(3) {
+    -webkit-transition-delay: 0.1s;
+    transition-delay: 0.1s;
+}
+
+figure.effect-portfolio13:hover img {
+    opacity: 0.4;
+    -webkit-transform: scale3d(1.1,1.1,1);
+    transform: scale3d(1.1,1.1,1);
+}
+
+figure.effect-portfolio13:hover p {
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+/*---------------*/
+/***** Sadie *****/
+/*---------------*/
+
+figure.effect-portfolio14 figcaption::before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: -webkit-linear-gradient(top, rgba(72,76,97,0) 0%, rgba(72,76,97,0.8) 75%);
+    background: linear-gradient(to bottom, rgba(72,76,97,0) 0%, rgba(72,76,97,0.8) 75%);
+    content: '';
+    opacity: 0;
+    -webkit-transform: translate3d(0,50%,0);
+    transform: translate3d(0,50%,0);
+}
+
+figure.effect-portfolio14 h2 {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: 100%;
+    color: #484c61;
+    -webkit-transition: -webkit-transform 0.35s, color 0.35s;
+    transition: transform 0.35s, color 0.35s;
+    -webkit-transform: translate3d(0,-50%,0);
+    transform: translate3d(0,-50%,0);
+}
+
+figure.effect-portfolio14 figcaption::before,
+figure.effect-portfolio14 p {
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-portfolio14 p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 2em;
+    width: 100%;
+    opacity: 0;
+    -webkit-transform: translate3d(0,10px,0);
+    transform: translate3d(0,10px,0);
+}
+
+figure.effect-portfolio14:hover h2 {
+    color: #fff;
+    -webkit-transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
+    transform: translate3d(0,-50%,0) translate3d(0,-40px,0);
+}
+
+figure.effect-portfolio14 p {
+    color: #ffffff;
+}
+
+figure.effect-portfolio14:hover figcaption::before ,
+figure.effect-portfolio14:hover p {
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+
+/*---------------*/
+/***** Sarah *****/
+/*---------------*/
+
+.grid figure.effect-portfolio15 img {
+    width: 105%;
+}
+
+figure.effect-portfolio15 {
+    background: #42b078;
+}
+
+figure.effect-portfolio15 img {
+    max-width: none;
+    width: -webkit-calc(100% + 20px);
+    width: calc(100% + 20px);
+    min-height: 240px;
+    max-height: 240px;
+    object-fit: cover;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(-10px,0,0);
+    transform: translate3d(-10px,0,0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+figure.effect-portfolio15:hover img {
+    opacity: 0.4;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+figure.effect-portfolio15 figcaption {
+    text-align: left;
+    padding: 25px;
+}
+
+figure.effect-portfolio15 p {
+    color: #ffffff;
+}
+
+figure.effect-portfolio15 h2 {
+    position: relative;
+    overflow: hidden;
+    padding: 0.5em 0;
+}
+
+figure.effect-portfolio15 h2::after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 3px;
+    background: #fff;
+    content: '';
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(-100%,0,0);
+    transform: translate3d(-100%,0,0);
+}
+
+figure.effect-portfolio15:hover h2::after {
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+figure.effect-portfolio15 p {
+    padding: 1em 0;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(100%,0,0);
+    transform: translate3d(100%,0,0);
+}
+
+figure.effect-portfolio15:hover p {
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+/*---------------*/
+/***** Ruby *****/
+/*---------------*/
+
+figure.effect-portfolio16 {
+    background-color: #17819c;
+}
+
+figure.effect-portfolio16 img {
+    opacity: 0.7;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+}
+
+figure.effect-portfolio16:hover img {
+    opacity: 0.5;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+}
+
+figure.effect-portfolio16 figcaption {
+    padding: 25px;
+}
+
+figure.effect-portfolio16 h2 {
+    margin-top: 20%;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0,20px,0);
+    transform: translate3d(0,20px,0);
+}
+
+figure.effect-portfolio16 p {
+    margin: 1em 0 0;
+    padding: 1.2em;
+    color: #ffffff;
+    border: 1px solid #fff;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(0,20px,0) scale(1.1);
+    transform: translate3d(0,20px,0) scale(1.1);
+} 
+
+figure.effect-portfolio16:hover h2 {
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+}
+
+figure.effect-portfolio16:hover p {
+    opacity: 1;
+    margin-top: 1em;
+    -webkit-transform: translate3d(0,0,0) scale(1);
+    transform: translate3d(0,0,0) scale(1);
+}

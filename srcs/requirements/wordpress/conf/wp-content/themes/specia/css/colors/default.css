@@ -1,0 +1,1114 @@
+﻿/*=========================================
+    Primary Color
+=========================================*/
+/* Header CSS */
+
+::selection {
+    background-color: #00a3c8;
+    color: #fff;
+}
+
+.bdt-button-icon-align-right path {
+    stroke: #00a3c8;
+}
+
+.feature-block .lower-content .icon,
+.slider-section-twenty .owl-carousel.arrows-transparent .owl-nav [class*=owl-] i,
+.slider-section-twenty .slider-btn-play i,
+.header-widget-news .widget .widget_title:before,
+.nav-twenty .navigation .menubar .menu-wrap > li.active > a,
+.nav-twenty .navigation .menubar .menu-wrap > li.btn-home.current > a,
+.nav-twenty .navigation .menubar .menu-wrap > li:hover > a,
+.nav-twenty .navigation .menubar .menu-wrap > li.focus > a,
+.nav-eighteen .navigation .menubar .menu-wrap > li.dropdown:hover > a:after,
+.nav-eighteen .navigation .menubar .menu-wrap > li:hover > a,
+.nav-eighteen .navigation .menubar .menu-wrap > li.focus > a,
+.nav-eighteen .navigation .menubar .menu-wrap > li.active > a,
+.nav-seventeen .menu-right .contact-info span.text,
+.nav-seventeen .menu-right .contact-icon,
+.nav-seventeen .menubar .menu-wrap>.menu-item:hover > a,
+.nav-seventeen .menubar .menu-wrap>.menu-item:focus > a,
+.nav-seventeen .menubar .menu-wrap>.menu-item.focus > a,
+.nav-seventeen .menubar .menu-wrap>.menu-item.active > a,
+.nav-sixteen .menubar .menu-wrap>.menu-item:hover > a,
+.nav-sixteen .menubar .menu-wrap>.menu-item:focus > a,
+.nav-sixteen .menubar .menu-wrap>.menu-item.focus > a,
+.nav-sixteen .menubar .menu-wrap>.menu-item.active > a,
+.nav-fifteen .menubar .menu-wrap>.menu-item:hover > a,
+.nav-fifteen .menubar .menu-wrap>.menu-item:focus > a,
+.nav-fifteen .menubar .menu-wrap>.menu-item.focus > a,
+.nav-fifteen .menubar .menu-wrap>.menu-item.active > a,
+.slider-section-fourteen .specia-content h6,
+.slider-section-fourteen .slider-btn-play .video-play,
+.slider-section-fourteen .bt-white-border:hover,
+.slider-section-fourteen .bt-white-border:focus,
+.slider-section-fourteen .bt-white:hover,
+.slider-section-fourteen .bt-white:focus,
+.slider-section-fourteen .bt-white,
+.slider-section-fourteen .specia-content h6,
+.nav-fourteen .menubar .menu-wrap>.menu-item:hover > a,
+.nav-fourteen .menubar .menu-wrap>.menu-item:focus > a,
+.nav-fourteen .menubar .menu-wrap>.menu-item.focus > a,
+.nav-fourteen .menubar .menu-wrap>.menu-item.active > a,
+.thirteen-service-box .inner-box .icon-box,
+.call-to-action-thirteen .call-btn-1:hover,
+.nav-thirteen .menubar .menu-wrap>.menu-item:hover > a,
+.nav-thirteen .menubar .menu-wrap>.menu-item:focus > a,
+.nav-thirteen .menubar .menu-wrap>.menu-item.focus > a,
+.nav-thirteen .menubar .menu-wrap>.menu-item.active > a,
+.bdt-advanced-icon-box-readmore,
+.call-to-action-eleven .subtitle i,
+.nav-eleven .menubar .menu-wrap>.menu-item:hover > a,
+.nav-eleven .menubar .menu-wrap>.menu-item:focus > a,
+.nav-eleven .menubar .menu-wrap>.menu-item.focus > a,
+.nav-eleven .menubar .menu-wrap>.menu-item.active > a,
+.service-nifty .service-box .service-bg-icon,
+.service-nifty .service-box:hover .service-title a,
+.service-nifty .service-box:focus-within .service-title a,
+.service-nifty .service-box .specia-icon:before,
+.call-to-action-ten .call-btn-1:hover,
+.call-to-action-ten p,
+.call-to-action-ten h2 span.rotate,
+.webstrap-service-box .service-description .more-link:after,
+.webstrap-service-box .back-part .more-link,
+.call-to-action-nine .call-btn-1:hover,
+.call-to-action-nine h2,
+.slider-section-nine .owl-carousel.arrows-transparent .owl-nav [class*=owl-] i,
+.slider-section-nine .specia-content .video-play,
+.slider-section-nine .specia-content .bt-white-border:hover,
+.slider-section-nine .specia-content .bt-white-border:focus,
+.slider-section-nine .specia-content .bt-white:hover,
+.slider-section-nine .specia-content .bt-white:focus,
+.slider-section-nine .specia-content .bt-white,
+.service-spyropress .service-box:hover .service-title a,
+.service-spyropress .service-box:focus-within .service-title a,
+.service-spyropress .service-box .specia-icon:before,
+.call-to-action-eight .call-btn-1:hover,
+.call-to-action-eight .call-wrapper a:hover,
+.slider-wrapper.slider-section-eight .specia-content h6,
+.service-benzer .service-description .more-link:after,
+.service-benzer .service-icon-box i,
+.call-to-action-seven .call-icon-box,
+.call-to-action-seven .call-btn-1:hover,
+.call-to-action-six .call-btn-1:hover,
+.call-to-action-four .call-title,
+.service-proficient .service-box .service-icon,
+.call-to-action-two .call-btn-2:hover,
+.service-specia .service-description a.more-link,
+.woocommerce ul.products li.product .yith-wcwl-wishlistaddedbrowse span.feedback+a,
+.woocommerce ul.products li.product .yith-wcwl-wishlistexistsbrowse span.feedback+a,
+.career-item ul li span,
+.inner-box .info-list li i,
+.inner-box .info-list li a:hover, .inner-box .info-list li a:focus,
+.inner-box .info-list li:hover a, .inner-box .info-list li:focus-within a,
+.about-timeline .section-heading h4,
+.process-icon>span,
+.feature-block .read-more-link,
+.about-content-three .section-heading h4,
+.about-content-two .works-box .work-process li:nth-child(odd) .icon-box,
+.testimonials .testimonial-box .quotes,
+.twelve-service-box-title a,
+.twelve-service-box-icon,
+.call-to-action-twelve .call-btn-1:hover,
+.slider-section-twelve .video-play i,
+.slider-section-twelve .bt-white-border:hover,
+.slider-section-twelve .bt-white-border:focus,
+.nav-twelve .menubar .menu-wrap>.menu-item:hover > a,
+.nav-twelve .menubar .menu-wrap>.menu-item:focus > a,
+.nav-twelve .menubar .menu-wrap>.menu-item.focus > a,
+.nav-twelve .menubar .menu-wrap>.menu-item.active > a,
+.footer-sidebar .widget_shopping_cart_content span.quantity, .wp-block-group .wp-block-image figcaption a {
+    color: #00a3c8;
+}
+
+
+.wp-block-file .wp-block-file__button,
+.service-magzee .specia-icon:after,
+.service-magzee .service-box .inner:before,
+.header-widget-news .widget_tag_cloud .tagcloud a:hover,
+.header-widget-news .widget_tag_cloud .tagcloud a:focus,
+.slider-section-twenty .specia-content:after,
+.nav-nineteen .menubar .menu-wrap>.menu-item:hover > a,
+.nav-nineteen .menubar .menu-wrap>.menu-item:focus > a,
+.nav-nineteen .menubar .menu-wrap>.menu-item.focus > a,
+.nav-nineteen .menubar .menu-wrap>.menu-item.active > a,
+.nav-nineteen .header-categories-form .select-wraper:after,
+.slider-section-nineteen .specia-content h6:after,
+.slider-section-eighteen .specia-content h1:before,
+.nav-seventeen .navigation .menubar .menu-wrap > li > a:after,
+.nav-seventeen .navigation .menubar .menu-wrap > li.dropdown > a:after,
+.nav-sixteen .logo a,
+.nav-fifteen .logo,
+.slider-section-fourteen .specia-content:after,
+.slider-section-fourteen .specia-content:before,
+.nav-fourteen .logo:after,
+.nav-fourteen .logo:before,
+.thirteen-service-box .inner-box .icon-box:before,
+.call-to-action-thirteen .call-btn-1,
+.nav-thirteen .navigation .menu-wrap > li > a:after,
+.slider-section-thirteen .owl-carousel .owl-nav [class*=owl-]:hover:after,
+.eleven-service-box:hover .bdt-advanced-icon-box,
+.eleven-service-box:focus-within .bdt-advanced-icon-box,
+.bdt-advanced-icon-box:before,
+.call-to-action-eleven .call-btn-1,
+.call-to-action-eleven .call-icon-box,
+.slider-section-eleven .specia-content h6:after,
+.slider-section-eleven .owl-dots .owl-dot.active,
+.get-info-box:before,
+.service-nifty .service-box:hover a.icon-link,
+.service-nifty .service-box:focus-within a.icon-link,
+.service-nifty .service-box a.icon-link:hover,
+.service-nifty .service-box a.icon-link:focus,
+.service-nifty .service-box .icon-link,
+.call-to-action-ten .call-btn-1,
+.slider-section-ten .owl-dots .owl-dot:after,
+.webstrap-service-box .front-icon-part,
+.call-to-action-nine .call-btn-1,
+.slider-section-nine .owl-carousel.arrows-transparent .owl-nav [class*=owl-]:hover,
+.slider-section-nine .specia-content,
+.call-to-action-eight .call-btn-1,
+.nav-spyropress .navigation .cart-icon-wrap,
+.service-benzer .inner:before,
+.call-to-action-seven .background-overlay,
+.slider-section-seven .specia-slider:after,
+.call-to-action-six .call-btn-1,
+.call-to-action-six .call-icon-box,
+.call-to-action-six .background-overlay,
+.slider-section-six .specia-content h6:before,
+.call-to-action-five .call-icon-box,
+.call-to-action-five .call-btn-1,
+.hero-service-box .back-part,
+.hero-service-box .back-part::before,
+.cta-icon-wrap .call-icon-box,
+.slider-section-four .specia-content h1:before,
+.service-avira .service-box:hover,
+.service-avira .service-box:focus-within,
+.call-to-action-three .background-overlay .row:after,
+.slider-section-three .specia-content h6,
+.service-proficient .service-rating:after,
+.service-proficient .service-rating:before,
+.slider-section-two .item:before, .slider-section-two .item:after,
+.service-description .more-link:after,
+.slider-btn-play .video-play,
+.owl-carousel.arrows-transparent .owl-nav [class*=owl-],
+.woocommerce ul.products li.product .onsale,
+.yith-wcwl-wishlistaddedbrowse .feedback i, .yith-wcwl-wishlistexistsbrowse .feedback i,
+.history span:first-child,
+.call-to-action-one .call-btn-1,
+.inner-box .info-list li:hover i, .inner-box .info-list li:focus-within i,
+#header-cart .checkout.wc-forward,
+.about-content-two .works-box .work-process li:nth-child(even),
+.plans-version-one .plan.recommended header,
+.plans-version-one .plan:hover header,
+.plans-version-one .plan:focus-within header,
+.av-tab-filter .indicator,
+.call-to-action-twelve .call-btn-1,
+.slider-section-twelve .specia-content h6 span,
+.nav-twelve .navigation .menu-wrap > li > a:after,
+.wp-block-search .wp-block-search__button:hover {
+    background-color: #00a3c8;
+}
+
+.slider-section-fifteen .specia-slider.text-center h6:before,
+.slider-section-fifteen .specia-slider h6:after,
+.call-to-action-eleven .call-icon-box:after,
+.slider-section-eleven .specia-content,
+div.get-info-box:before,
+.service-nifty div.service-box,
+.service-spyropress div.service-box,
+.call-to-action-eight .call-wrapper a.bt-primary,
+.call-to-action-six .call-icon-box:after, .call-to-action-six .call-icon-box:before,
+.call-to-action-five .call-icon-box:after, .call-to-action-five .call-icon-box:before,
+.owl-carousel.arrows-transparent .owl-nav [class*=owl-],
+.yith-wcwl-wishlistaddedbrowse .feedback i,
+.yith-wcwl-wishlistexistsbrowse .feedback i,
+.twelve-service-box:hover, .twelve-service-box:focus {
+    border-color: #00a3c8;
+}
+
+div.header-vertical-bar .dropdown-menu, div.header-vertical-bar,
+.nav-sixteen .navigation .menubar .menu-wrap > li > a:after,
+.nav-sixteen .navigation .menubar .menu-wrap > li.dropdown > a:after,
+.webstrap-service-box div.back-part {
+    border-top-color: #00a3c8;
+}
+
+.nav-nineteen .header-widget-info,
+.header.nav-seventeen,
+.call-to-action-eleven h2:after,
+.team-version-one .single-team-member div.img-box {
+    border-bottom-color: #00a3c8;
+}
+
+.slider-section-thirteen div.specia-content h6 {
+    border-left-color: #00a3c8;
+}
+
+.service-spyropress div.service-box:before {
+    border-left-color: #00a3c8;
+    border-top-color: #00a3c8;
+}
+
+.service-spyropress div.service-box:after {
+    border-bottom-color: #00a3c8;
+    border-right-color: #00a3c8;
+}
+
+.form-panel .wpcf7-form .wpcf7-form-control:focus,
+input[type="text"]:focus, input[type="email"]:focus,
+input[type="url"]:focus, input[type="password"]:focus,
+input[type="search"]:focus, input[type="number"]:focus,
+input[type="tel"]:focus, input[type="range"]:focus,
+input[type="date"]:focus, input[type="month"]:focus,
+input[type="week"]:focus, input[type="time"]:focus,
+input[type="datetime"]:focus, input[type="datetime-local"]:focus,
+input[type="color"]:focus, textarea:focus {
+    border-color: #00a3c8;
+}
+
+/* Classic Header Three Start */
+
+.nav-classic-three .menubar .menu-wrap > li:hover > a,
+.nav-classic-three .menubar .menu-wrap > li:focus > a,
+.nav-classic-three .menubar .menu-wrap > li.focus > a,
+.nav-classic-three .menubar .menu-wrap > li.active > a {
+    color: #00a3c8;
+}
+
+.nav-classic-three .navigation .menubar .menu-wrap > li.dropdown:hover > a:after,
+.nav-classic-three .navigation .menubar .menu-wrap > li:hover > a:after,
+.nav-classic-three .navigation .menubar .menu-wrap > li.active > a:after {
+    background: #00a3c8;
+}
+
+/* --/-- */
+
+
+/* Classic Header Two Start */
+
+.nav-classic-two .menubar .menu-wrap > li:hover > a,
+.nav-classic-two .menubar .menu-wrap > li:focus > a,
+.nav-classic-two .menubar .menu-wrap > li.focus > a,
+.nav-classic-two .menubar .menu-wrap > li.active > a {
+    color: #00a3c8;
+}
+
+.nav-classic-two .navigation .menubar .menu-wrap > li.dropdown:hover > a:after,
+.nav-classic-two .navigation .menubar .menu-wrap > li:hover > a:after,
+.nav-classic-two .navigation .menubar .menu-wrap > li.active > a:after,
+.nav-classic-two .navigation .menubar .dropdown-menu:after{
+    background: #00a3c8;
+}
+
+/* --/-- */
+
+
+/* Classic Header One Start */
+
+.nav-classic-one .menubar .menu-wrap > li:hover > a,
+.nav-classic-one .menubar .menu-wrap > li:focus > a,
+.nav-classic-one .menubar .menu-wrap > li.focus > a,
+.nav-classic-one .menubar .menu-wrap > li.active > a {
+    color: #00a3c8;
+}
+
+.nav-classic-one .navigation .menu-wrap > li > a:after,
+.nav-classic-one .navigation .menu-wrap > li.dropdown > a:after,
+.nav-classic-one .navigation .menubar .dropdown-menu:after {
+    background: #00a3c8;
+}
+
+/* --/-- */
+
+/* Nav-Webstrap Start */
+
+.nav-webstrap .menubar .menu-wrap > li:hover > a,
+.nav-webstrap .menubar .menu-wrap > li:focus > a,
+.nav-webstrap .menubar .menu-wrap > li.focus > a,
+.nav-webstrap .menubar .menu-wrap > li.active > a {
+    color: #00a3c8;
+}
+
+.nav-webstrap .navigation li .view-popup,
+.nav-webstrap .menu-right li.cart-wrapper .cart-icon-wrap span,
+.nav-webstrap .navigation .menubar .menu-wrap > li > a:after,
+.nav-webstrap .navigation .menubar .menu-wrap > li.dropdown > a:after {
+    background: #00a3c8;
+}
+
+/* --/-- */
+
+/* Nav-Nifty Start */
+
+.nav-nifty .header-top-info .header-widget .widget:not(.widget-square) a:hover,
+.nav-nifty .header-top-info .header-widget .widget:not(.widget-circle) a:hover,
+.nav-nifty .menubar .menu-wrap > li:hover > a,
+.nav-nifty .menubar .menu-wrap > li:focus > a,
+.nav-nifty .menubar .menu-wrap > li.focus > a,
+.nav-nifty .menubar .menu-wrap > li.active > a {
+    color: #00a3c8;
+}
+
+.nav-nifty .navigation .menubar .menu-wrap > li > a:after,
+.nav-nifty .navigation .menubar .menu-wrap > li.dropdown > a:after {
+    background: #00a3c8;
+}
+
+/* --/-- */
+
+/* Nav-Spyropress Start */
+
+.nav-spyropress .menubar .menu-wrap > li:hover > a,
+.nav-spyropress .menubar .menu-wrap > li:focus > a,
+.nav-spyropress .menubar .menu-wrap > li.focus > a,
+.nav-spyropress .menubar .menu-wrap > li.active > a {
+    color: #00a3c8;
+}
+
+.nav-spyropress .navigation .menubar .menu-wrap > li > a:after,
+.nav-spyropress .navigation .menubar .menu-wrap > li.dropdown > a:after {
+    border-bottom-color: #00a3c8;
+}
+
+/* --/-- */
+
+/* Nav-Benzer Start */
+
+.nav-benzer .menubar .menu-wrap > .menu-item:hover > a,
+.nav-benzer .menubar .menu-wrap > .menu-item:focus > a,
+.nav-benzer .menubar .menu-wrap > .menu-item.focus > a,
+.nav-benzer .menubar .menu-wrap > .menu-item.active > a {
+    color: #ffffff;
+    background: #00a3c8;
+}
+
+/* --/-- */
+
+/* Nav-Fabify Start */
+
+.nav-fabify .menu-right li.cart-wrapper .cart-icon-wrap span,
+.nav-fabify .navigation .theme-menu {
+    background: #00a3c8;
+}
+
+/* --/-- */
+
+
+/* Nav-Heropress Start */
+
+.nav-heropress .menubar .menu-item:hover > a,
+.nav-heropress .menubar .menu-item:focus > a,
+.nav-heropress .menubar .menu-item.focus > a,
+.nav-heropress .menubar .menu-item.active > a {
+    color: #00a3c8;
+}
+
+.nav-heropress .navigation .menubar .dropdown-menu {
+    border-top-color: #00a3c8;
+}
+
+/* --/-- */
+
+
+/* Nav-Avira Start */
+
+.nav-avira .navigation .menu-wrap > li:hover > a,
+.nav-avira .navigation .menu-wrap > li:focus > a,
+.nav-avira .navigation .menu-wrap > li.focus > a,
+.nav-avira .navigation .menu-wrap > li.active > a {
+    color: #ffffff;
+    background: #00a3c8;
+}
+
+/* --/-- */
+
+/* Nav-Proficient Start */
+
+.nav-proficient .navigation,
+.nav-proficient .navigation .menubar .dropdown-menu:after {
+    background: #00a3c8;
+}
+
+/* --/-- */
+
+
+/* Nav-Specia Start */
+
+.nav-specia .menubar .menu-wrap > .menu-item:hover > a,
+.nav-specia .menubar .menu-wrap > .menu-item:focus > a,
+.nav-specia .menubar .menu-wrap > .menu-item.focus > a,
+.nav-specia .menubar .menu-wrap > .menu-item.active > a {
+    color: #ffffff;
+    background: #00a3c8;
+}
+
+/* --/-- */
+.header-categories-form .search-submit,
+.woocommerce a.remove:hover,
+.woocommerce a.remove:focus,
+.owl-carousel.arrows-transparent .owl-nav [class*=owl-]:hover,
+.tool-primary[class*=tool-]:after,
+.prealoader, .menu-right li.cart-wrapper .cart-icon-wrap span,
+.nav-specia input[type="button"],
+.widget-square.widget_social_widget li a:hover,
+.widget-square.widget_social_widget li a:focus,
+.widget-circle.widget_social_widget li a:hover,
+.widget-circle.widget_social_widget li a:focus,
+.header-sidebar-toggle.active span,
+.header-sidebar-toggle.active span:before, .header-sidebar-toggle.active span:after,
+.hamburger-menu:hover div, button, input[type="reset"], input[type="submit"],
+.bt-primary, .badge.badge-primary, .tool-primary:after,
+.ny-heading.animate-4 .ny-text-wrapper::after,
+.wp-block-loginout a {
+    background: #00a3c8;
+}
+
+.shopping-cart,
+.widget:not(.widget-square) a:focus,
+.widget:not(.widget-square) a:hover,
+.widget:not(.widget-square) a:active,
+.widget:not(.widget-circle) a:focus,
+.widget:not(.widget-circle) a:hover,
+.widget:not(.widget-circle) a:active,
+.mobile-menu li > span, .navigation .menubar .dropdown-menu,
+.mobile-menu .dropdown.current > a, .mobile-menu a:hover,
+.mobile-menu ul > li.active > a,
+.widget_social_widget:not(.widget-circle):not(.widget-square) li a:hover i,
+.widget_social_widget:not(.widget-circle):not(.widget-square) li a:focus i,
+.mobi-head-top .header-widget .widget_social_widget li a:hover i,
+.view-search form, .p-menu, [class*="widget_"]:not(.widget_info):not(.widget_social_widget) li a:before,
+.ny-text-wrapper b.is-show, .header-info .contact-icon i,
+.header:not(.nav-nifty) .header-widget .widget:not(.widget_social_widget) i,
+.mobi-head-top .header-widget .widget:not(.widget_social_widget) i {
+    color: #00a3c8;
+}
+
+.shopping-cart,
+.tool-primary.tool-top-left:before,
+.tool-primary.tool-top-right:before,
+.tool-primary.tool-top:before,
+.navigation .menubar .dropdown-menu {
+    border-top-color: #00a3c8;
+}
+
+.view-search form .form-control,
+.tool-primary.tool-bottom-left:before,
+.tool-primary.tool-bottom-right:before,
+.tool-primary.tool-bottom:before,
+.navigation .menu-wrap > li.dropdown > a:after {
+    border-bottom-color: #00a3c8;
+}
+
+.tool-primary.tool-left:before {
+    border-left-color: #00a3c8
+}
+.badge.badge-primary:before,
+.tool-primary.tool-right:before {
+    border-right-color: #00a3c8
+}
+
+button, input[type="button"],
+input[type="reset"], input[type="submit"],
+.bt-primary, .logo a:focus,
+.view-search .form-control:focus,
+.shopping-cart:after,
+.wp-block-loginout a {
+    border-color: #00a3c8;
+}
+
+.widget-square.widget_social_widget li a:hover i,
+.widget-circle.widget_social_widget li a:hover i,
+button, input[type="button"], input[type="reset"], input[type="submit"],
+.bt-primary, .menubar .menu-item:hover > a, .menubar .menu-item:focus > a,
+.menubar .menu-item.focus > a, .menubar .menu-item.active > a,
+.badge.badge-primary, .widget-circle.widget_social_widget li a:hover,
+.widget-square.widget_social_widget li a:hover,
+.widget-square.widget_social_widget li a:focus,
+.widget-circle.widget_social_widget li a:focus, .wp-block-loginout a {
+    color: #fff;
+}
+
+button:hover, button:focus,
+input[type="button"]:hover,
+input[type="button"]:focus,
+input[type="reset"]:hover,
+input[type="reset"]:focus,
+input[type="submit"]:hover,
+input[type="submit"]:focus,
+.bt-primary:hover, .bt-primary:focus,
+.wp-block-loginout a:hover, .wp-block-loginout a:focus {
+    color: #ffffff;
+    border-color: #00a3c8;
+    background-color: #00a3c8;
+}
+
+/* Seperater */
+
+/* Slider CSS */
+.slider-version-one .caption h1 span, .slider-version-two .caption h1 span, .slider-version-three .caption h1 span{
+    color: #00a3c8;
+}
+.specia-btn-1:hover, .specia-btn-2:hover, .specia-btn-3:hover{
+    background: #00a3c8;
+    border-color: #00a3c8;
+}
+.owl-theme .owl-controls .owl-nav [class*=owl-]:hover {
+    background: #00a3c8;
+    border-color: #00a3c8;
+}
+.owl-theme div.owl-dots .owl-dot.active span,
+.owl-theme div.owl-dots .owl-dot:hover span,
+.slider-version .slider-version-three .owl-controls div.owl-dots .owl-dot.active span,
+.slider-version .slider-version-three.owl-controls div.owl-dots .owl-dot.hover span {
+    background: #00a3c8;
+    border-color: #00a3c8;
+}
+
+/* Service CSS */
+.section-heading span{
+    color: #00a3c8;
+}
+.service-version-one .service-title a:hover,
+.service-version-one .service-title a:active,
+.service-version-one .service-title a:focus,
+.service-box:hover .icon-block.icon-block-1:hover .icon-block-item i,
+.service-box:focus-within .icon-block.icon-block-1:hover .icon-block-item i {
+    color: #00a3c8;
+}
+/* Service Section CSS */
+.service-version-one .service-box:hover .service-icon-box i,
+.service-version-one .service-box:focus-within .service-icon-box i {
+    background: #00a3c8;
+}
+.specia-icon-effect-1 .specia-icon:after {
+    box-shadow: 0 0 0 4px #00a3c8;
+}
+.specia-icon-effect-5 .specia-icon:hover {
+    box-shadow: 0 0 0 4px #00a3c8;
+}
+.specia-icon-effect-6 .specia-icon:hover {
+    box-shadow: 0 0 0 4px #00a3c8;
+}
+.specia-icon-effect-8 .specia-icon:hover {
+    background: #00a3c8;
+}
+/* Portfolio CSS */
+figure.effect-apollo p {
+    border-left: 5px solid #00a3c8;
+}
+/* Cal Action CSS */
+.call-to-action-one h2 span.rotate {
+    color: #00a3c8;
+}
+.call-to-action-two .background-overlay,.call-to-action-one .background-overlay {
+    background: #00a3c8;
+}
+.call-to-action-one .call-btn-1:hover {
+    color: #00a3c8;
+}
+.call-to-action-two .call-btn-2:hover {
+    background: #00a3c8;
+    border-color: #00a3c8;
+}
+.call-to-action-three .call-btn-3:hover {
+    background: #00a3c8;
+    border-color: #00a3c8;
+}
+.call-to-action-four .call-btn-3:hover {
+    background: #00a3c8;
+    border-color: #00a3c8;
+}
+.call-to-action-five .call-btn-1:hover {
+    color: #00a3c8;
+}
+
+/* Features Section CSS */
+.features-version-one h2 span, .features-version-two h2 span, .features-version-three h2 span{
+    color: #00a3c8;
+}
+.features-version-one .feature-box-info h4 a, .features-version-two .feature-box-info h4 a, .features-version-three .feature-box-info h4 a{
+    color: #00a3c8;
+}
+
+/* Pricing Section CSS */
+.plans-version-one .plan .order:hover, .plans-version-three .plan .order:hover{
+    background: #00a3c8;
+    border: solid 2px #00a3c8;
+}
+
+/* Pricing Section CSS */
+.plans-version-two .plan h2 {
+    background: #00a3c8;
+}
+.plans-version-two .plan .order:hover{
+    background: #00a3c8;
+    border: solid 2px #00a3c8;
+}
+.pricing-box .default-btn{
+    border: 2px solid #00a3c8;
+}
+.pricing-box .default-btn:hover {
+    background-color: #00a3c8;
+}
+.pricing-head h3 {
+    color: #00a3c8;
+}
+/* Testimonial Section CSS */
+.testimonial-one h2 span, .testimonial-two h2 span{
+    color: #00a3c8;
+}
+.testimonial-one .testimonial-version-one .item .testimonial-box footer .testimonial-name,
+.testimonial-two .testimonial-version-two .item .testimonial-box footer .testimonial-name,
+.testimonial-four .testimonial-version-four .item h4 {
+    color: #00a3c8;
+}
+.testimonial-four .testimonial-version-four .owl-controls .owl-dots .owl-dot.active span {
+    background: #00a3c8;
+    border: 2px solid #00a3c8;
+}
+
+/* Latest Blog Section CSS */
+.blog-version-1 article:hover footer.entry-footer{
+     background: #00a3c8;
+}
+.entry-content .more-link:hover,
+.entry-content .more-link:focus {
+    background: #00a3c8;
+    border: solid 2px #00a3c8;
+}
+
+/* Client Section CSS */
+.client h2 span{
+    color: #00a3c8;
+}
+
+/* Team Section CSS */
+.team-version-one .single-team-member a.profile-btn {
+    background: #00a3c8;
+    border: solid 2px #00a3c8;
+}
+
+/* Footer Section CSS */
+.footer-sidebar .widget .title-border { 
+    border-bottom: 2px solid #00a3c8;
+}
+.footer-sidebar .widget table tbody a { 
+    color: #00a3c8; 
+}
+.widget table #next a, .widget table #prev a { 
+    color: #00a3c8; font-weight: 600; 
+}
+.footer-sidebar  .widget ul li a:hover, .widget ul li a:active { 
+    color: #00a3c8; 
+}
+.footer-sidebar .widget input[type="submit"]:hover,
+.footer-sidebar .widget input[type="submit"]:focus{
+    background: #00a3c8;
+    border-color: #00a3c8;
+}
+.footer-sidebar .tagcloud a:hover, .tagcloud a:focus {  
+    border: 1px solid #00a3c8;
+    background: #00a3c8;
+}
+.footer-sidebar .widget table tbody a:hover, .widget table tbody a:focus { 
+    color: #00a3c8; 
+}
+
+/* Copyright Content */
+.payment-icon li a:hover{
+    color: #00a3c8;
+}
+.footer-copyright p a:hover{
+    color: #00a3c8;
+}
+.top-scroll {
+    border-color: #00a3c8;
+    color: #00a3c8;
+}
+
+/* About Page CSS */
+.team-version-one .single-team-member .img-box .background-overlay .box .content ul li a,
+.team-version-two .single-team-member .img-box .background-overlay .box .content ul li a {
+    color: #00a3c8;
+}
+.team-version-one .single-team-member > span,
+.team-version-two .single-team-member > span,
+.team-version-four .single-team-member .team-info h4,
+.team-version-four .single-team-member .team-overlay .bio h4 {
+    color: #00a3c8;
+}
+.single-view-team-member span,
+.single-view-team-member span {
+    color: #00a3c8;
+}
+.team-version-one .single-view-team-member .social li a i:hover,
+.team-version-two .single-view-team-member .social li a i:hover,
+.team-version-two .background-overlay .box .content ul li a:hover {
+    background: #00a3c8;
+}
+.team-version-one .single-team-member a.profile-btn:hover,
+.team-version-two .single-team-member a.profile-btn:hover {
+    background: #00a3c8;
+    border: solid 2px #00a3c8;
+}
+.team-version-one .single-team-member .img-box .background-overlay .box .content ul li a:hover,
+.team-version-two .single-team-member .img-box .background-overlay .box .content ul li a:hover {
+    background: #00a3c8;
+    border-color: #00a3c8;
+}
+.single-view-portfolio-member .portfolio_button:hover {
+    background: #00a3c8;
+    border: solid 2px #00a3c8;
+}
+
+/* Pagination CSS */
+.paginations a:hover, .paginations a:focus, .paginations a.active, span.page-numbers.current {
+    border: 1px solid #00a3c8;
+    background-color: #00a3c8;
+}
+
+/* Portfolio Filter CSS */
+.portfolio-tab-sorting li a.active, .portfolio-tab-sorting li a:hover {
+    background: #00a3c8;
+    border: solid 2px #00a3c8;
+}
+
+/* Blog Page CSS */
+.page-wrapper article:hover footer.entry-footer {
+     background: #00a3c8;
+}
+.comment-reply-title {
+    border-top: 4px solid #00a3c8;
+}
+.required {
+    color: #00a3c8;
+}
+a.comment-reply-link {
+    color: #00a3c8;
+}
+
+/* Error Page CSS */
+.error-page h1{
+    color: #00a3c8;
+}
+/* Contact Page CSS */
+.contact-section-two .contact-info .fa {
+    color: #00a3c8;
+}
+
+/* Form Element CSS */
+button:hover,
+input[type="button"]:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover {
+    background: #00a3c8;
+    border: solid 2px #00a3c8;
+}
+
+/* Breadcrumb CSS */
+.page-breadcrumb a{
+    color: #00a3c8;
+}
+
+
+/*Sidebar Area CSS */
+.sidebar .widget ul li a:hover, .widget ul li a:active { 
+    color: #00a3c8; 
+}
+.sidebar .widget table tbody a {
+    color: #00a3c8;
+}
+.sidebar .widget input[type="submit"]:hover{
+    background: #00a3c8;
+    border-color: #00a3c8;
+}
+.sidebar .tagcloud a:hover, .tagcloud a:focus,
+.wp-block-tag-cloud a:hover, .wp-block-tag-cloud a:focus  {  
+    border: 1px solid #00a3c8;
+    background: #00a3c8;
+} 
+.sidebar .widget .title-border { 
+    border-bottom: 2px solid #00a3c8;
+}
+
+/* Typography */
+blockquote { 
+    border-left: 5px solid #00a3c8 !important;
+}
+table th {     
+    border: 1px solid #00a3c8;
+    background: #00a3c8;
+}
+em, cite, q { 
+    color: #00a3c8;
+}
+s, strike, del { 
+    color: #00a3c8; 
+}
+h1 span, h2 span, h3 span, h4 span, h5 span, h6 span, h1 small, h2 small, h3 small, h4 small, h5 small, h6 small {
+    color: #00a3c8;
+}
+body a:focus, body a:hover {
+    color: #00a3c8;
+}
+.gallery-item:hover figcaption {
+    background: #00a3c8;
+}
+
+/* Form */
+button:focus,
+input[type="button"]:focus,
+input[type="reset"]:focus,
+input[type="submit"]:focus,
+button:active,
+input[type="button"]:active,
+input[type="reset"]:active,
+input[type="submit"]:active {
+    background: #00a3c8;
+    border: solid 2px #00a3c8;
+}
+
+/* WooCommerce */
+.woocommerce .yith-wcwl-add-button a.add_to_wishlist:hover,
+.wishlist_table .product-add-to-cart a:hover,
+.woocommerce a.button:hover,
+.woocommerce a.button:focus, 
+.woocommerce button.button.alt:hover, 
+.woocommerce #respond input#submit:hover,
+.woocommerce input.button.alt:hover,
+.woocommerce button.button.alt.disabled:hover,
+.woocommerce-cart table.cart input.button:hover,
+.woocommerce input.button:hover,
+.woocommerce button.button:hover,
+.woocommerce button.button:focus {
+    background: #00a3c8;
+    border: solid 2px #00a3c8;
+}
+.woocommerce nav.woocommerce-pagination ul li span.current {
+    background: #00a3c8;
+    border: solid 1px #00a3c8;
+}
+.woocommerce nav.woocommerce-pagination a.page-numbers:hover,
+.woocommerce nav.woocommerce-pagination a.page-numbers:focus {
+    background: #00a3c8;
+}
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button:hover {
+    background: #00a3c8;
+    border: solid 2px #00a3c8;
+}
+.woocommerce p.stars a {
+    color: #00a3c8;
+}
+.woo-sidebar .widget .title-border { 
+    border-bottom: 2px solid #00a3c8;
+}
+
+.woocommerce a.remove:hover,
+.woocommerce a.remove:focus {
+    background: #00a3c8;
+    color:#ffffff !important;
+}
+
+.price_slider_wrapper .ui-slider .ui-slider-handle {
+    border: 5px solid #00a3c8;
+}
+.price_slider_wrapper .ui-slider .ui-slider-range {
+  background: #00a3c8;
+}
+.woocommerce-MyAccount-navigation ul li.is-active,
+.woocommerce-MyAccount-navigation ul li:hover {
+    background: #00a3c8;
+}
+.contact-section-one .contact-info > li:hover,
+.contact-section-one .contact-info > li:focus-within {
+    color: #00a3c8;
+}
+
+/* --------------------------------------
+=========================================
+    Secondary Color
+=========================================
+-----------------------------------------*/
+
+/* Service CSS */
+.section-heading{
+    color: #222222;
+}
+.specia-icon-effect-1 .specia-icon {
+    background: #222222;
+}
+.specia-icon-effect-2 .specia-icon:after {
+    background: #222222;
+}
+.specia-icon-effect-3 .specia-icon:after {
+    background: #222222;
+}
+.specia-icon-effect-4 .specia-icon {
+    background: #222222;
+    box-shadow: 0 0 0 4px #222222;
+}
+.specia-icon-effect-5 .specia-icon {
+    box-shadow: 0 0 0 4px #222222;
+    background: #222222;
+}
+.specia-icon-effect-6 .specia-icon {
+    background: #222222;
+    box-shadow: 0 0 0 4px #222222;
+}
+.specia-icon-effect-8 .specia-icon {
+    background: #222222;
+}
+
+/* Pricing Section CSS */
+.plans-version-one .plan .order, .plans-version-three .plan .order{
+    color: #222222;
+    border: solid 2px #222222;
+}
+
+/* Pricing Section CSS */
+.plans-version-two .plan header {
+    background: #ffffff;
+}
+.plans-version-two .plan .order{
+    color: #222222;
+    border: solid 2px #222222;
+}
+
+/* Latest Blog Section CSS */
+.blog-version-1 footer.entry-footer {
+    background: #222222;
+}
+.entry-content .more-link {
+    color: #222222;
+    border: solid 2px #222222;
+}
+
+/* Client Section CSS */
+.client h2 {
+    color: #222222;
+}
+
+/* Footer Section CSS */
+.footer-sidebar .background-overlay { 
+    background: #222222;
+}
+.footer-sidebar .widget table caption, .woo-sidebar .widget table caption  { 
+    background: #222222;
+}
+
+/* Footer Copyright Section */
+.footer-copyright {
+    background: #222222;
+}
+
+/* About Page CSS */
+.single-team-member a.profile-btn{    
+    color: #222222;
+    border: solid 2px #222222;
+}
+
+/* Portfolio Filter */
+.portfolio-tab-sorting li a {
+    color: #222222;
+    border: solid 2px #222222;
+}
+
+/* Blog Page CSS */
+footer.entry-footer {
+    background: #222222;
+}   
+h2.entry-title a {
+    color: #222222;
+}
+.entry-header h2.entry-title {
+    color: #222222;
+}
+
+/* Error Page CSS */
+.error-page h2{
+    color: #222222;
+}
+
+/*Sidebar Area CSS */
+.sidebar .widget .widget-title {
+    color: #222222;
+}
+.sidebar .widget input[type="submit"] {
+    color: #222222;
+    border: solid 2px #222222;
+}
+.sidebar .widget table caption,
+.wp-block-calendar table caption{ 
+    background: #222222;
+}
+/* Typography */
+h1, .h1,
+h2, .h2,
+h3, .h3,
+h4, .h4,
+h5, .h5,
+h6, .h6 {
+    color: #222222;
+}
+blockquote cite, blockquote small { 
+    color: #222222;
+}
+address { 
+    color: #222222;
+}
+ins { 
+    color: #222222;
+}
+.gallery-item .gallery-caption {
+    background: #222222;
+}   
+
+/* WooCommerce */
+.wishlist_table .product-add-to-cart a,
+.woocommerce a.button, 
+.woocommerce button.button.alt, 
+.woocommerce #respond input#submit,
+.woocommerce input.button.alt, 
+.woocommerce input.button:disabled, .woocommerce input.button:disabled[disabled],
+.woocommerce-cart table.cart input.button,
+.woocommerce input.button,
+.woocommerce button.button {
+    color: #222222;
+    border: solid 2px #222222;
+}
+.woocommerce-cart .wc-proceed-to-checkout a.checkout-button {
+    border: solid 2px #222222;
+    color: #222222;
+}
+.price_slider_wrapper .ui-slider-horizontal {
+  background: #222222;
+}
+.woocommerce-MyAccount-navigation ul li {
+    background: #222222;
+}
+
+
+a.comment-reply-link:hover, 
+a.comment-reply-link:focus {
+    color: #222222;
+}
+
+.widget .wp-block-file .wp-block-file__button:hover,
+.widget .wp-block-file .wp-block-file__button:focus {
+    color: #ffffff;
+}
+
+.footer-sidebar .price_slider_wrapper button {
+    background: #00a3c8 !important;
+    color: #fff;
+}
+
+.wp-block-button.is-style-outline a.wp-block-button__link {
+    color: #00a3c8;
+}
+
+.wp-block-button.is-style-outline a.wp-block-button__link:hover, 
+.wp-block-button.is-style-outline a.wp-block-button__link:focus {
+    background: #00a3c8;
+    color: #fff;
+}

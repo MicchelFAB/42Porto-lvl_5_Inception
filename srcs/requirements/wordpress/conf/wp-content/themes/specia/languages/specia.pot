@@ -1,0 +1,442 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Specia\n"
+"POT-Creation-Date: 2021-09-04 11:40+0530\n"
+"PO-Revision-Date: 2021-09-04 11:40+0530\n"
+"Last-Translator: \n"
+"Language-Team: Specia\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:11
+msgid "404"
+msgstr ""
+
+#: footer.php:40
+msgid ""
+"<a href=\"https://speciatheme.com/\" target=\"_blank\">Specia WordPress "
+"Theme</a>"
+msgstr ""
+
+#: inc/customize/specia-blog.php:12
+msgid "Blog Section"
+msgstr ""
+
+#: inc/customize/specia-blog.php:21 inc/customize/specia-call-action.php:21
+#: inc/customize/specia-features.php:21 inc/customize/specia-portfolio.php:21
+#: inc/customize/specia-service.php:21
+#: inc/customize/specia-slider-section.php:25
+msgid "Settings"
+msgstr ""
+
+#: inc/customize/specia-blog.php:39 inc/customize/specia-call-action.php:39
+#: inc/customize/specia-features.php:39
+#: inc/customize/specia-header-section.php:43
+#: inc/customize/specia-header-section.php:346
+#: inc/customize/specia-portfolio.php:39 inc/customize/specia-service.php:39
+#: inc/customize/specia-slider-section.php:44
+msgid "Hide / Show Section"
+msgstr ""
+
+#: inc/customize/specia-blog.php:44 inc/customize/specia-call-action.php:44
+#: inc/customize/specia-features.php:44
+#: inc/customize/specia-footer-section.php:43
+#: inc/customize/specia-footer-section.php:103
+#: inc/customize/specia-header-section.php:49
+#: inc/customize/specia-header-section.php:74
+#: inc/customize/specia-header-section.php:351
+#: inc/customize/specia-header-section.php:426
+#: inc/customize/specia-header-section.php:462
+#: inc/customize/specia-portfolio.php:44 inc/customize/specia-service.php:44
+#: inc/customize/specia-slider-section.php:49
+msgid "Show"
+msgstr ""
+
+#: inc/customize/specia-blog.php:45 inc/customize/specia-call-action.php:45
+#: inc/customize/specia-features.php:45
+#: inc/customize/specia-footer-section.php:44
+#: inc/customize/specia-footer-section.php:104
+#: inc/customize/specia-header-section.php:50
+#: inc/customize/specia-header-section.php:75
+#: inc/customize/specia-header-section.php:352
+#: inc/customize/specia-header-section.php:427
+#: inc/customize/specia-header-section.php:463
+#: inc/customize/specia-portfolio.php:45 inc/customize/specia-service.php:45
+#: inc/customize/specia-slider-section.php:50
+msgid "Hide"
+msgstr ""
+
+#: inc/customize/specia-blog.php:55 inc/customize/specia-features.php:55
+#: inc/customize/specia-portfolio.php:55 inc/customize/specia-service.php:55
+msgid "Header"
+msgstr ""
+
+#: inc/customize/specia-blog.php:73 inc/customize/specia-features.php:73
+#: inc/customize/specia-portfolio.php:73 inc/customize/specia-service.php:73
+#: inc/widget/widget_feature.php:74
+msgid "Title"
+msgstr ""
+
+#: inc/customize/specia-blog.php:92 inc/customize/specia-features.php:92
+#: inc/customize/specia-portfolio.php:92 inc/customize/specia-service.php:92
+#: inc/widget/widget_feature.php:84
+msgid "Description"
+msgstr ""
+
+#: inc/customize/specia-blog.php:103 inc/customize/specia-call-action.php:55
+#: inc/customize/specia-portfolio.php:103 inc/customize/specia-service.php:103
+#: inc/customize/specia-slider-section.php:60
+msgid "Content"
+msgstr ""
+
+#: inc/customize/specia-blog.php:121
+msgid "Select number of Posts"
+msgstr ""
+
+#: inc/customize/specia-call-action.php:12
+msgid "Call To Action Section"
+msgstr ""
+
+#: inc/customize/specia-call-action.php:74
+msgid "Contents"
+msgstr ""
+
+#: inc/customize/specia-call-action.php:96
+#: inc/customize/specia-portfolio.php:123
+#: inc/customize/specia-portfolio.php:144
+#: inc/customize/specia-portfolio.php:165 inc/customize/specia-service.php:123
+#: inc/customize/specia-service.php:144 inc/customize/specia-service.php:165
+#: inc/customize/specia-slider-section.php:80
+#: inc/customize/specia-slider-section.php:100
+#: inc/customize/specia-slider-section.php:120
+msgid "Select Page"
+msgstr ""
+
+#: inc/customize/specia-call-action.php:116
+msgid "Button First"
+msgstr ""
+
+#: inc/customize/specia-call-action.php:135
+msgid "Button Text"
+msgstr ""
+
+#: inc/customize/specia-call-action.php:154
+msgid "Button Link"
+msgstr ""
+
+#: inc/customize/specia-call-action.php:174
+msgid "Open link in a new tab"
+msgstr ""
+
+#: inc/customize/specia-call-action.php:193
+msgid "Button Second"
+msgstr ""
+
+#: inc/customize/specia-call-action.php:212
+msgid "Button Middle Content"
+msgstr ""
+
+#: inc/customize/specia-call-action.php:233
+msgid "Button Text 2"
+msgstr ""
+
+#: inc/customize/specia-call-action.php:252
+msgid "Button Link 2"
+msgstr ""
+
+#: inc/customize/specia-call-action.php:272
+#: inc/customize/specia-call-action.php:291
+#: inc/customize/specia-features.php:120
+msgid "Background Image"
+msgstr ""
+
+#: inc/customize/specia-features.php:12
+msgid "Features Section"
+msgstr ""
+
+#: inc/customize/specia-features.php:103
+msgid "Background"
+msgstr ""
+
+#: inc/customize/specia-footer-section.php:10
+msgid "Footer Section"
+msgstr ""
+
+#: inc/customize/specia-footer-section.php:18
+#: inc/customize/specia-footer-section.php:38
+#: inc/customize/specia-footer-section.php:63
+msgid "Copyright Content"
+msgstr ""
+
+#: inc/customize/specia-footer-section.php:77
+#: inc/customize/specia-footer-section.php:97
+msgid "Payment Icon"
+msgstr ""
+
+#: inc/customize/specia-footer-section.php:121
+msgid "PayPal"
+msgstr ""
+
+#: inc/customize/specia-footer-section.php:141
+msgid "Visa"
+msgstr ""
+
+#: inc/customize/specia-footer-section.php:160
+msgid "MasterCard"
+msgstr ""
+
+#: inc/customize/specia-footer-section.php:179
+msgid "AmEx"
+msgstr ""
+
+#: inc/customize/specia-footer-section.php:198
+msgid "Stripe"
+msgstr ""
+
+#: inc/customize/specia-general.php:18
+msgid "Buttons"
+msgstr ""
+
+#: inc/customize/specia-general.php:37
+msgid "Border Radius (px)"
+msgstr ""
+
+#: inc/customize/specia-header-section.php:12
+msgid "Header Section"
+msgstr ""
+
+#: inc/customize/specia-header-section.php:24
+msgid "Social Media"
+msgstr ""
+
+#: inc/customize/specia-header-section.php:69
+msgid "Hide / Show Tooltip"
+msgstr ""
+
+#: inc/customize/specia-header-section.php:93
+msgid "Facebook"
+msgstr ""
+
+#: inc/customize/specia-header-section.php:112
+msgid "LinkedIn"
+msgstr ""
+
+#: inc/customize/specia-header-section.php:131
+msgid "Twitter"
+msgstr ""
+
+#: inc/customize/specia-header-section.php:149
+msgid "Google Plus"
+msgstr ""
+
+#: inc/customize/specia-header-section.php:167
+msgid "Instagram"
+msgstr ""
+
+#: inc/customize/specia-header-section.php:185
+msgid "Dribbble"
+msgstr ""
+
+#: inc/customize/specia-header-section.php:203
+msgid "GitHub"
+msgstr ""
+
+#: inc/customize/specia-header-section.php:221
+msgid "Bitbucket"
+msgstr ""
+
+#: inc/customize/specia-header-section.php:239
+msgid "Skype"
+msgstr ""
+
+#: inc/customize/specia-header-section.php:242
+msgid "Username"
+msgstr ""
+
+#: inc/customize/specia-header-section.php:258
+msgid "Skype Action"
+msgstr ""
+
+#: inc/customize/specia-header-section.php:261
+msgid ""
+"Enter your Skype action, for e.g: skype:echo123?call (call, chat, voicemail, "
+"sendfile, userinfo, add)"
+msgstr ""
+
+#: inc/customize/specia-header-section.php:277
+#: inc/customize/specia-header-section.php:370
+msgid "Email"
+msgstr ""
+
+#: inc/customize/specia-header-section.php:295
+msgid "VKontakte"
+msgstr ""
+
+#: inc/customize/specia-header-section.php:313
+msgid "Pinterest"
+msgstr ""
+
+#: inc/customize/specia-header-section.php:327
+msgid "Header Contact Info"
+msgstr ""
+
+#: inc/customize/specia-header-section.php:389
+msgid "Contact Number"
+msgstr ""
+
+#: inc/customize/specia-header-section.php:403
+#: inc/customize/specia-header-section.php:421
+msgid "Sticky Header"
+msgstr ""
+
+#: inc/customize/specia-header-section.php:440
+msgid "Header Cart & Button"
+msgstr ""
+
+#: inc/customize/specia-header-section.php:457
+msgid "Hide/ Show Header Cart"
+msgstr ""
+
+#: inc/customize/specia-header-section.php:504
+msgid "Button Label"
+msgstr ""
+
+#: inc/customize/specia-header-section.php:522
+msgid "Button URL"
+msgstr ""
+
+#: inc/customize/specia-header-section.php:540
+msgid "Open link in new tab"
+msgstr ""
+
+#: inc/customize/specia-portfolio.php:12
+msgid "Portfolio Section"
+msgstr ""
+
+#: inc/customize/specia-premium.php:14
+msgid "Upgrade to Premium"
+msgstr ""
+
+#: inc/customize/specia-premium.php:30
+msgid "Premium Demo"
+msgstr ""
+
+#: inc/customize/specia-premium.php:32
+msgid "Buy Now"
+msgstr ""
+
+#: inc/customize/specia-premium.php:34
+msgid "Support Center"
+msgstr ""
+
+#: inc/customize/specia-service.php:12
+msgid "Service Section"
+msgstr ""
+
+#: inc/customize/specia-slider-section.php:12
+msgid "Slider Section"
+msgstr ""
+
+#: inc/sidebar/sidebar.php:4 inc/sidebar/sidebar.php:6
+msgid "Sidebar Widget Area"
+msgstr ""
+
+#: inc/sidebar/sidebar.php:14 inc/sidebar/sidebar.php:16
+msgid "Footer Widget Area"
+msgstr ""
+
+#: inc/sidebar/sidebar.php:24 inc/sidebar/sidebar.php:26
+#: inc/widget/widget_feature.php:19
+msgid "Features Widget Area"
+msgstr ""
+
+#: inc/sidebar/sidebar.php:34 inc/sidebar/sidebar.php:36
+msgid "WooCommerce Widget Area"
+msgstr ""
+
+#: inc/specia-nav-walker.php:124
+msgid "Home"
+msgstr ""
+
+#: inc/template-tags.php:57
+#, php-format
+msgid "Leave a Comment<span class=\"screen-reader-text\"> on %s</span>"
+msgstr ""
+
+#: inc/widget/widget_feature.php:16
+msgid "Features Widget"
+msgstr ""
+
+#: inc/widget/widget_feature.php:79
+msgid "Icons"
+msgstr ""
+
+#: sections/specia-blog.php:75 sections/specia-service.php:76
+#: template-parts/content-page.php:61 template-parts/content-search.php:60
+#: template-parts/content.php:60
+msgid "Read More"
+msgstr ""
+
+#: sections/specia-breadcrumb.php:10
+#, php-format
+msgid "Daily Archives: %s"
+msgstr ""
+
+#: sections/specia-breadcrumb.php:14
+#, php-format
+msgid "Monthly Archives: %s"
+msgstr ""
+
+#: sections/specia-breadcrumb.php:18
+#, php-format
+msgid "Yearly Archives: %s"
+msgstr ""
+
+#: sections/specia-breadcrumb.php:22
+#, php-format
+msgid "Category Archives: %s"
+msgstr ""
+
+#: sections/specia-breadcrumb.php:26
+#, php-format
+msgid "Tag Archives: %s"
+msgstr ""
+
+#: sections/specia-breadcrumb.php:30
+msgid "Error 404"
+msgstr ""
+
+#: sections/specia-breadcrumb.php:34
+#, php-format
+msgid "Search Results for: %s"
+msgstr ""
+
+#: sections/specia-breadcrumb.php:38
+#, php-format
+msgid "Author: %s"
+msgstr ""
+
+#: template-parts/content-none.php:19
+#, php-format
+msgid ""
+"Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr ""
+
+#: template-parts/content-none.php:23
+msgid ""
+"Sorry, but nothing matched your search terms. Please try again with some "
+"different keywords."
+msgstr ""
+
+#: template-parts/content-none.php:28
+msgid ""
+"It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps "
+"searching can help."
+msgstr ""
