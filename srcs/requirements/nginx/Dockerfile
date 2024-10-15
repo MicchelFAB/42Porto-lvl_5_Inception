@@ -11,7 +11,7 @@ RUN 	mkdir -p /etc/nginx/ssl \
 
 RUN 	openssl req -x509 -nodes -out /etc/nginx/ssl/mamaral.crt -keyout  \
 			/etc/nginx/ssl/mamaral.key -subj \
-			"/C=PT/ST=Porto/L=Porto/O=42/OU=42/CN=mamaral-.42.fr/UID=mamaral-"
+			"/C=${COUNTRY_NAME}/ST=${STATE_NAME}/L=${LOCALITY_NAME}/O=${ORGANIZATION_NAME}/OU=${ORGANIZATIONAL_UNIT}/CN=${COMMON_NAME}/UID=${UNIQUE_ID}"
 
 COPY	conf/nginx.conf /etc/nginx/sites-available/default
 
