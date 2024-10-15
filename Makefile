@@ -49,7 +49,7 @@ log:
 
 fclean: 
 		@make remove-image
-		@sudo rm -rf $(HOME)/data
+		# @sudo rm -rf $(HOME)/data
 
 .PHONY: all host install build \
 		run stop re list-images \
