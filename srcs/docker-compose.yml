@@ -10,7 +10,7 @@ services:
     env_file:
       - ../.env
     volumes:
-      - mariadb:/var/lib/mysql/:rw
+      - mariadb:/var/lib/mysql:rw
     networks:
       - inception_network
   wordpress:
@@ -24,7 +24,7 @@ services:
     depends_on:
       - mariadb
     volumes:
-      - wordpress:/var/www/html/:rw
+      - wordpress:/var/www/html:rw
     networks:
       - inception_network
   nginx:
@@ -38,21 +38,19 @@ services:
     depends_on:
       - wordpress
     volumes:
-      - wordpress:/var/www/html/:rw
+      - wordpress:/var/www/html:rw
     networks:
       - inception_network
 volumes:
   mariadb:
     driver: local 
     driver_opts:
-      # device: /home/mamaral-/data/mariadb
       device: /home/michel-batista/data/mariadb
       type: none
       o: bind
   wordpress:
     driver: local 
     driver_opts:
-      # device: /home/mamaral-/data/wordpress
       device: /home/michel-batista/data/wordpress
       type: none
       o: bind
